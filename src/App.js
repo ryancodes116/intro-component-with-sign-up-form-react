@@ -5,7 +5,7 @@ import Form from './components/Form';
 
 const App = () => {
   return (
-    <div>
+    <div className="mainContainer">
       <Details />
       <Form />
     </div>

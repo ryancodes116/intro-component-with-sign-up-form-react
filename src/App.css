@@ -11,11 +11,6 @@ body {
     center no-repeat;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 p {
@@ -26,7 +21,29 @@ img {
   max-width: 100%;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .container {
   width: 90%;
+  max-width: 645px;
   margin: 0 auto;
+}
+
+/* Media Queries */
+@media (min-width: 550px) {
+  body {
+    background-image: url('./images/bg-intro-desktop.png');
+  }
+}
+
+@media (min-width: 1100px) {
+  .mainContainer {
+    flex-direction: row;
+  }
 }

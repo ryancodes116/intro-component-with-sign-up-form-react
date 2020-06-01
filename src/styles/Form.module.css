@@ -85,3 +85,19 @@
   color: hsl(0, 100%, 74%);
   font-weight: 600;
 }
+
+/* Media Queries */
+@media (min-width: 1100px) {
+  .formSection {
+    margin-top: 4.7rem;
+    padding-right: 3rem;
+  }
+
+  .cta {
+    margin: 0;
+  }
+
+  .ctaContent {
+    width: 80%;
+  }
+}

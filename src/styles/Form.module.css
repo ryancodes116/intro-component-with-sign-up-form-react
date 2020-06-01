@@ -1,5 +1,6 @@
-.form {
+.formSection {
   text-align: center;
+  padding-bottom: 4rem;
 }
 
 .cta {
@@ -18,4 +19,47 @@
 
 .ctaContent span {
   font-weight: 700;
+}
+
+.form {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 2px -2px gray;
+}
+
+.input {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+}
+
+.submitBtn {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
+
+.terms {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2;
+  padding-bottom: 0.5rem;
+  color: hsl(246, 25%, 77%);
+}
+
+.terms span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
 }

@@ -31,13 +31,35 @@
   box-shadow: 0 10px 2px -2px gray;
 }
 
+/* ADDED */
+.inputWrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
 .input {
+  width: 100%; /* ADDED */
   margin-bottom: 1.2rem;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 700;
-  border: 1px solid lightgray;
+  border: 2px solid lightgray;
   border-radius: 0.5rem;
+}
+
+.errorIcon {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.errorMsg {
+  position: absolute;
+  bottom: -0.5rem;
+  right: 1rem;
+  color: hsl(0, 100%, 74%);
+  font-size: 0.8rem;
 }
 
 .submitBtn {

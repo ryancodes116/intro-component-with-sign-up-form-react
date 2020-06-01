@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Details from './components/Details';
+import Form from './components/Form';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Details />
+      <Form />
     </div>
   );
 };
